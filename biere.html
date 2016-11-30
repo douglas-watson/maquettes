@@ -1,0 +1,1217 @@
+<!DOCTYPE html>
+<!-- saved from url=(0107)https://www.letemps.ch/lifestyle/2016/11/30/biere-belge-rumba-cubaine-entrent-patrimoine-immateriel-lunesco -->
+<html lang="fr" dir="ltr" class="no-js"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <script type="text/javascript" src="./biere_files/0d3c09e20d"></script><script src="./biere_files/nr-998.min.js"></script><script type="text/javascript" async="" defer="" src="./biere_files/goal.min.js"></script><script type="text/javascript" async="" src="./biere_files/watch.js"></script><script type="text/javascript" async="" src="./biere_files/analytics.js"></script><script async="" src="./biere_files/gtm.js"></script><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"VQYCVlVaDhAIVllWAwYO"};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(t,e,n){function r(t){try{c.console&&console.log(t)}catch(e){}}var o,i=t("ee"),a=t(15),c={};try{o=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(c.console=!0,o.indexOf("dev")!==-1&&(c.dev=!0),o.indexOf("nr_dev")!==-1&&(c.nrDev=!0))}catch(s){}c.nrDev&&i.on("internal-error",function(t){r(t.stack)}),c.dev&&i.on("fn-err",function(t,e,n){r(n.stack)}),c.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(c,function(t,e){return t}).join(", ")))},{}],2:[function(t,e,n){function r(t,e,n,r,o){try{d?d-=1:i("err",[o||new UncaughtException(t,e,n)])}catch(c){try{i("ierr",[c,(new Date).getTime(),!0])}catch(s){}}return"function"==typeof f&&f.apply(this,a(arguments))}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function o(t){i("err",[t,(new Date).getTime()])}var i=t("handle"),a=t(16),c=t("ee"),s=t("loader"),f=window.onerror,u=!1,d=0;s.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(l){"stack"in l&&(t(8),t(7),"addEventListener"in window&&t(5),s.xhrWrappable&&t(9),u=!0)}c.on("fn-start",function(t,e,n){u&&(d+=1)}),c.on("fn-err",function(t,e,n){u&&(this.thrown=!0,o(n))}),c.on("fn-end",function(){u&&!this.thrown&&d>0&&(d-=1)}),c.on("internal-error",function(t){i("ierr",[t,(new Date).getTime(),!0])})},{}],3:[function(t,e,n){t("loader").features.ins=!0},{}],4:[function(t,e,n){function r(t){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var o=t("ee"),i=t("handle"),a=t(8),c=t(7),s="learResourceTimings",f="addEventListener",u="resourcetimingbufferfull",d="bstResource",l="resource",p="-start",h="-end",m="fn"+p,w="fn"+h,v="bstTimer",y="pushState";t("loader").features.stn=!0,t(6);var g=NREUM.o.EV;o.on(m,function(t,e){var n=t[0];n instanceof g&&(this.bstStart=Date.now())}),o.on(w,function(t,e){var n=t[0];n instanceof g&&i("bst",[n,e,this.bstStart,Date.now()])}),a.on(m,function(t,e,n){this.bstStart=Date.now(),this.bstType=n}),a.on(w,function(t,e){i(v,[e,this.bstStart,Date.now(),this.bstType])}),c.on(m,function(){this.bstStart=Date.now()}),c.on(w,function(t,e){i(v,[e,this.bstStart,Date.now(),"requestAnimationFrame"])}),o.on(y+p,function(t){this.time=Date.now(),this.startPath=location.pathname+location.hash}),o.on(y+h,function(t){i("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),f in window.performance&&(window.performance["c"+s]?window.performance[f](u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["c"+s]()},!1):window.performance[f]("webkit"+u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["webkitC"+s]()},!1)),document[f]("scroll",r,!1),document[f]("keypress",r,!1),document[f]("click",r,!1)}},{}],5:[function(t,e,n){function r(t){for(var e=t;e&&!e.hasOwnProperty(u);)e=Object.getPrototypeOf(e);e&&o(e)}function o(t){c.inPlace(t,[u,d],"-",i)}function i(t,e){return t[1]}var a=t("ee").get("events"),c=t(17)(a,!0),s=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";e.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,e){var n=t[1],r=s(n,"nr@wrapped",function(){function t(){if("function"==typeof n.handleEvent)return n.handleEvent.apply(n,arguments)}var e={object:t,"function":n}[typeof n];return e?c(e,"fn-",null,e.name||"anonymous"):n});this.wrapped=t[1]=r}),a.on(d+"-start",function(t){t[1]=this.wrapped||t[1]})},{}],6:[function(t,e,n){var r=t("ee").get("history"),o=t(17)(r);e.exports=r,o.inPlace(window.history,["pushState","replaceState"],"-")},{}],7:[function(t,e,n){var r=t("ee").get("raf"),o=t(17)(r),i="equestAnimationFrame";e.exports=r,o.inPlace(window,["r"+i,"mozR"+i,"webkitR"+i,"msR"+i],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],8:[function(t,e,n){function r(t,e,n){t[0]=a(t[0],"fn-",null,n)}function o(t,e,n){this.method=n,this.timerDuration="number"==typeof t[1]?t[1]:0,t[0]=a(t[0],"fn-",this,n)}var i=t("ee").get("timer"),a=t(17)(i),c="setTimeout",s="setInterval",f="clearTimeout",u="-start",d="-";e.exports=i,a.inPlace(window,[c,"setImmediate"],c+d),a.inPlace(window,[s],s+d),a.inPlace(window,[f,"clearImmediate"],f+d),i.on(s+u,r),i.on(c+u,o)},{}],9:[function(t,e,n){function r(t,e){d.inPlace(e,["onreadystatechange"],"fn-",c)}function o(){var t=this,e=u.context(t);t.readyState>3&&!e.resolved&&(e.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,w,"fn-",c)}function i(t){v.push(t),h&&(g=-g,b.data=g)}function a(){for(var t=0;t<v.length;t++)r([],v[t]);v.length&&(v=[])}function c(t,e){return e}function s(t,e){for(var n in t)e[n]=t[n];return e}t(5);var f=t("ee"),u=f.get("xhr"),d=t(17)(u),l=NREUM.o,p=l.XHR,h=l.MO,m="readystatechange",w=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],v=[];e.exports=u;var y=window.XMLHttpRequest=function(t){var e=new p(t);try{u.emit("new-xhr",[e],e),e.addEventListener(m,o,!1)}catch(n){try{u.emit("internal-error",[n])}catch(r){}}return e};if(s(p,y),y.prototype=p.prototype,d.inPlace(y.prototype,["open","send"],"-xhr-",c),u.on("send-xhr-start",function(t,e){r(t,e),i(e)}),u.on("open-xhr-start",r),h){var g=1,b=document.createTextNode(g);new h(a).observe(b,{characterData:!0})}else f.on("fn-end",function(t){t[0]&&t[0].type===m||a()})},{}],10:[function(t,e,n){function r(t){var e=this.params,n=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<d;r++)t.removeEventListener(u[r],this.listener,!1);if(!e.aborted){if(n.duration=(new Date).getTime()-this.startTime,4===t.readyState){e.status=t.status;var i=o(t,this.lastSize);if(i&&(n.rxSize=i),this.sameOrigin){var a=t.getResponseHeader("X-NewRelic-App-Data");a&&(e.cat=a.split(", ").pop())}}else e.status=0;n.cbTime=this.cbTime,f.emit("xhr-done",[t],t),c("xhr",[e,n,this.startTime])}}}function o(t,e){var n=t.responseType;if("json"===n&&null!==e)return e;var r="arraybuffer"===n||"blob"===n||"json"===n?t.response:t.responseText;return h(r)}function i(t,e){var n=s(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.sameOrigin=n.sameOrigin}var a=t("loader");if(a.xhrWrappable){var c=t("handle"),s=t(11),f=t("ee"),u=["load","error","abort","timeout"],d=u.length,l=t("id"),p=t(14),h=t(13),m=window.XMLHttpRequest;a.features.xhr=!0,t(9),f.on("new-xhr",function(t){var e=this;e.totalCbs=0,e.called=0,e.cbTime=0,e.end=r,e.ended=!1,e.xhrGuids={},e.lastSize=null,p&&(p>34||p<10)||window.opera||t.addEventListener("progress",function(t){e.lastSize=t.loaded},!1)}),f.on("open-xhr-start",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),f.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),f.on("send-xhr-start",function(t,e){var n=this.metrics,r=t[0],o=this;if(n&&r){var i=h(r);i&&(n.txSize=i)}this.startTime=(new Date).getTime(),this.listener=function(t){try{"abort"===t.type&&(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof e.onload))&&o.end(e)}catch(n){try{f.emit("internal-error",[n])}catch(r){}}};for(var a=0;a<d;a++)e.addEventListener(u[a],this.listener,!1)}),f.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),f.on("xhr-load-added",function(t,e){var n=""+l(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),f.on("xhr-load-removed",function(t,e){var n=""+l(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),f.on("addEventListener-end",function(t,e){e instanceof m&&"load"===t[0]&&f.emit("xhr-load-added",[t[1],t[2]],e)}),f.on("removeEventListener-end",function(t,e){e instanceof m&&"load"===t[0]&&f.emit("xhr-load-removed",[t[1],t[2]],e)}),f.on("fn-start",function(t,e,n){e instanceof m&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=(new Date).getTime()))}),f.on("fn-end",function(t,e){this.xhrCbStart&&f.emit("xhr-cb-time",[(new Date).getTime()-this.xhrCbStart,this.onload,e],e)})}},{}],11:[function(t,e,n){e.exports=function(t){var e=document.createElement("a"),n=window.location,r={};e.href=t,r.port=e.port;var o=e.href.split("://");!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=e.hostname||n.hostname,r.pathname=e.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname);var i=!e.protocol||":"===e.protocol||e.protocol===n.protocol,a=e.hostname===document.domain&&e.port===n.port;return r.sameOrigin=i&&(!e.hostname||a),r}},{}],12:[function(t,e,n){function r(){}function o(t,e,n){return function(){return i(t,[(new Date).getTime()].concat(c(arguments)),e?null:this,n),e?void 0:this}}var i=t("handle"),a=t(15),c=t(16),s=t("ee").get("tracer"),f=NREUM;"undefined"==typeof window.newrelic&&(newrelic=f);var u=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit"],d="api-",l=d+"ixn-";a(u,function(t,e){f[e]=o(d+e,!0,"api")}),f.addPageAction=o(d+"addPageAction",!0),f.setCurrentRouteName=o(d+"routeName",!0),e.exports=newrelic,f.interaction=function(){return(new r).get()};var p=r.prototype={createTracer:function(t,e){var n={},r=this,o="function"==typeof e;return i(l+"tracer",[Date.now(),t,n],r),function(){if(s.emit((o?"":"no-")+"fn-start",[Date.now(),r,o],n),o)try{return e.apply(this,arguments)}finally{s.emit("fn-end",[Date.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){p[e]=o(l+e)}),newrelic.noticeError=function(t){"string"==typeof t&&(t=new Error(t)),i("err",[t,(new Date).getTime()])}},{}],13:[function(t,e,n){e.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(e){return}}}},{}],14:[function(t,e,n){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1]),e.exports=r},{}],15:[function(t,e,n){function r(t,e){var n=[],r="",i=0;for(r in t)o.call(t,r)&&(n[i]=e(r,t[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],16:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(o<0?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=r},{}],17:[function(t,e,n){function r(t){return!(t&&t instanceof Function&&t.apply&&!t[a])}var o=t("ee"),i=t(16),a="nr@original",c=Object.prototype.hasOwnProperty,s=!1;e.exports=function(t,e){function n(t,e,n,o){function nrWrapper(){var r,a,c,s;try{a=this,r=i(arguments),c="function"==typeof n?n(r,a):n||{}}catch(f){l([f,"",[r,a,o],c])}u(e+"start",[r,a,o],c);try{return s=t.apply(a,r)}catch(d){throw u(e+"err",[r,a,d],c),d}finally{u(e+"end",[r,a,s],c)}}return r(t)?t:(e||(e=""),nrWrapper[a]=t,d(t,nrWrapper),nrWrapper)}function f(t,e,o,i){o||(o="");var a,c,s,f="-"===o.charAt(0);for(s=0;s<e.length;s++)c=e[s],a=t[c],r(a)||(t[c]=n(a,f?c+o:o,i,c))}function u(n,r,o){if(!s||e){var i=s;s=!0;try{t.emit(n,r,o)}catch(a){l([a,n,r,o])}s=i}}function d(t,e){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(t);return n.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(r){l([r])}for(var o in t)c.call(t,o)&&(e[o]=t[o]);return e}function l(e){try{t.emit("internal-error",e)}catch(n){}}return t||(t=o),n.inPlace=f,n.flag=a,n}},{}],ee:[function(t,e,n){function r(){}function o(t){function e(t){return t&&t instanceof r?t:t?s(t,c,i):i()}function n(n,r,o){if(!l.aborted){t&&t(n,r,o);for(var i=e(o),a=h(n),c=a.length,s=0;s<c;s++)a[s].apply(i,r);var f=u[y[n]];return f&&f.push([g,n,r,i]),i}}function p(t,e){v[t]=h(t).concat(e)}function h(t){return v[t]||[]}function m(t){return d[t]=d[t]||o(n)}function w(t,e){f(t,function(t,n){e=e||"feature",y[n]=e,e in u||(u[e]=[])})}var v={},y={},g={on:p,emit:n,get:m,listeners:h,context:e,buffer:w,abort:a,aborted:!1};return g}function i(){return new r}function a(){(u.api||u.feature)&&(l.aborted=!0,u=l.backlog={})}var c="nr@context",s=t("gos"),f=t(15),u={},d={},l=e.exports=o();l.backlog=u},{}],gos:[function(t,e,n){function r(t,e,n){if(o.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[e]=r,r}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){o.buffer([t],r),o.emit(t,e,n)}var o=t("ee").get("handle");e.exports=r,r.ee=o},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!b++){var t=g.info=NREUM.info,e=d.getElementsByTagName("script")[0];if(setTimeout(f.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&e))return f.abort();s(v,function(e,n){t[e]||(t[e]=n)}),c("mark",["onload",a()],null,"api");var n=d.createElement("script");n.src="https://"+t.agent,e.parentNode.insertBefore(n,e)}}function o(){"complete"===d.readyState&&i()}function i(){c("mark",["domContent",a()],null,"api")}function a(){return(new Date).getTime()}var c=t("handle"),s=t(15),f=t("ee"),u=window,d=u.document,l="addEventListener",p="attachEvent",h=u.XMLHttpRequest,m=h&&h.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:h,REQ:u.Request,EV:u.Event,PR:u.Promise,MO:u.MutationObserver},t(12);var w=""+location,v={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-998.min.js"},y=h&&m&&m[l]&&!/CriOS/.test(navigator.userAgent),g=e.exports={offset:a(),origin:w,features:{},xhrWrappable:y};d[l]?(d[l]("DOMContentLoaded",i,!1),u[l]("load",r,!1)):(d[p]("onreadystatechange",o),u[p]("onload",r)),c("mark",["firstbyte",a()],null,"api");var b=0},{}]},{},["loader",2,10,4,3]);</script>
+<script>var _sf_startpt=(new Date()).getTime();</script>
+<meta name="Generator" content="Drupal 8 (https://www.drupal.org)">
+<meta name="MobileOptimized" content="width">
+<meta name="HandheldFriendly" content="true">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="twitter:image" content="https://assets.letemps.ch/sites/default/files/media/2016/11/30/file6si1xt8v8af16ndsm8ua.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@letemps">
+<meta name="twitter:title" content="La bière belge et la rumba cubaine entrent au patrimoine immatériel de l’Unesco">
+<meta name="twitter:description" content="Les 1500 breuvages de Belgique et la danse cubaine reçoivent la protection symbolique de l’agence onusienne. La Fête des vignerons est en lice">
+<script>ltx8="Disabled";</script>
+<meta name="google-site-verification" content="z0tBKnrS4WrJ-Qq_7-W8j40X5-3Lnvlb7lf1a8FnfTE">
+<meta name="p:domain_verify" content="d0baf6f701271f1d36972e356dcfb112">
+<meta property="fb:pages" content="319393291423771">
+<meta property="fb:app_id" content="100160886777903">
+<meta name="description" content="Les 1500 breuvages de Belgique et la danse cubaine reçoivent la protection symbolique de l’agence onusienne.">
+<script type="application/ld+json">{
+      "@context": "http://schema.org",
+      "@type": "NewsArticle",
+      "mainEntityOfPage":{
+        "@type":"WebPage",
+        "@id":"https://www.letemps.ch/lifestyle/2016/11/30/biere-belge-rumba-cubaine-entrent-patrimoine-immateriel-lunesco"
+      },
+      "headline": "La bière belge et la rumba cubaine entrent au patrimoine immatériel de l’Unesco",
+            "image": {
+        "@type": "ImageObject",
+        "url": "https://www.letemps.ch/sites/default/files/styles/lt_article_cover/public/media/2016/11/30/file6si1xt8v8af16ndsm8ua.jpg?itok=J_ngdbzJ",
+        "height": 505,
+        "width": 1280
+      },
+                  "datePublished": "2016-11-30T13:24:00+01:00",
+            "dateModified": "2016-11-30T14:24:24+01:00",
+      "author": {
+        "@type": "Person",
+        "name": "AFP/LT"
+      },
+       "publisher": {
+        "@type": "Organization",
+        "name": "Le Temps",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://assets.letemps.ch/themes/custom/letemps/logo-amp.png",
+          "width": 324,
+          "height": 60
+        }
+      }
+            ,"description": "Les 1500 breuvages de Belgique et la danse cubaine reçoivent la protection symbolique de l’agence onusienne. La Fête des vignerons est en lice"
+          }</script>
+<meta property="og:title" content="La bière belge et la rumba cubaine entrent au patrimoine immatériel de l’Unesco">
+<meta property="og:image" content="https://assets.letemps.ch/sites/default/files/media/2016/11/30/file6si1xt8v8af16ndsm8ua.jpg">
+<meta property="og:url" content="https://www.letemps.ch/lifestyle/2016/11/30/biere-belge-rumba-cubaine-entrent-patrimoine-immateriel-lunesco">
+<meta property="og:description" content="Les 1500 breuvages de Belgique et la danse cubaine reçoivent la protection symbolique de l’agence onusienne. La Fête des vignerons est en lice">
+<meta property="og:type" content="article">
+<link rel="amphtml" href="https://www.letemps.ch/node/1023180/amphtml">
+<link rel="shortcut icon" href="https://assets.letemps.ch/sites/default/files/favicon_0.ico" type="image/vnd.microsoft.icon">
+<link rel="image_src" href="https://assets.letemps.ch/sites/default/files/media/2016/11/30/file6si1xt8v8af16ndsm8ua.jpg">
+<link rel="dns-prefetch" href="https://assets.letemps.ch/">
+<link rel="dns-prefetch" href="https://letemps.wemfbox.ch/">
+<link rel="dns-prefetch" href="https://temp-ssl.wemfbox.ch/">
+<link rel="dns-prefetch" href="https://aka-cdn.adtech.de/">
+<link rel="dns-prefetch" href="https://ping.chartbeat.net/">
+<link rel="search" href="https://letemps.ch/modules/custom/lt_custom/assets/opensearchdescription.xml" type="application/opensearchdescription+xml" title="LeTemps.ch">
+<link rel="canonical" href="https://www.letemps.ch/lifestyle/2016/11/30/biere-belge-rumba-cubaine-entrent-patrimoine-immateriel-lunesco">
+<link rel="shortlink" href="https://www.letemps.ch/node/1023180">
+<link rel="revision" href="https://www.letemps.ch/lifestyle/2016/11/30/biere-belge-rumba-cubaine-entrent-patrimoine-immateriel-lunesco">
+
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="https://assets.letemps.ch/themes/custom/letemps/favicons/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://assets.letemps.ch/themes/custom/letemps/favicons/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://assets.letemps.ch/themes/custom/letemps/favicons/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://assets.letemps.ch/themes/custom/letemps/favicons/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon-precomposed" sizes="60x60" href="https://assets.letemps.ch/themes/custom/letemps/favicons/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="https://assets.letemps.ch/themes/custom/letemps/favicons/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="https://assets.letemps.ch/themes/custom/letemps/favicons/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="https://assets.letemps.ch/themes/custom/letemps/favicons/apple-touch-icon-152x152.png">
+    <link rel="icon" type="image/png" href="https://assets.letemps.ch/themes/custom/letemps/favicons/favicon-196x196.png" sizes="196x196">
+    <link rel="icon" type="image/png" href="https://assets.letemps.ch/themes/custom/letemps/favicons/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="https://assets.letemps.ch/themes/custom/letemps/favicons/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://assets.letemps.ch/themes/custom/letemps/favicons/favicon-16x16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="https://assets.letemps.ch/themes/custom/letemps/favicons/favicon-128.png" sizes="128x128">
+    <meta name="application-name" content="Le Temps">
+    <meta name="msapplication-TileColor" content="#b80021">
+    <meta name="msapplication-TileImage" content="//assets.letemps.ch/themes/custom/letemps/favicons/mstile-144x144.png">
+    <meta name="msapplication-square70x70logo" content="//assets.letemps.ch/themes/custom/letemps/favicons/mstile-70x70.png">
+    <meta name="msapplication-square150x150logo" content="//assets.letemps.ch/themes/custom/letemps/favicons/mstile-150x150.png">
+    <meta name="msapplication-wide310x150logo" content="//assets.letemps.ch/themes/custom/letemps/favicons/mstile-310x150.png">
+    <meta name="msapplication-square310x310logo" content="//assets.letemps.ch/themes/custom/letemps/favicons/mstile-310x310.png">
+    <title>La bière belge et la rumba cubaine entrent au patrimoine immatériel de l’Unesco - Le Temps</title>
+    <link rel="stylesheet" href="./biere_files/css_o-UOvT2uHoVkh-2CoF68jqFivSj6IrrzT4S2zz8Veso.css" media="all">
+<link rel="stylesheet" href="./biere_files/css__qZypulFECjPW6c2bfxTCpS18L1cVSxWnI-PugwiPtw.css" media="all">
+<link rel="stylesheet" href="./biere_files/css_aCyCd5AYM-HrKeknLk1O9A7XRoR7rKSAk5hgWeDVI-E.css" media="print">
+<link rel="stylesheet" href="./biere_files/css_eFE-RmfELcFo3Wy53UWskD4HXxxNvkqzVIcRatnVuKE.css" media="all">
+
+    
+<!--[if lte IE 8]>
+<script src="https://assets.letemps.ch/sites/default/files/js/js_VtafjXmRvoUgAzqzYTA3Wrjkx9wcWhjP0G4ZnnqRamA.js"></script>
+<![endif]-->
+<script src="https://assets.letemps.ch/modules/custom/lt_gtm/js/advertisement.js?v=1"></script>
+
+  <script type="text/javascript" src="./biere_files/finder.js"></script></head>
+  <body itemscope="" itemtype="http://schema.org/WebPage">
+    <a href="https://www.letemps.ch/lifestyle/2016/11/30/biere-belge-rumba-cubaine-entrent-patrimoine-immateriel-lunesco#main-content" class="visually-hidden focusable">Aller au contenu principal</a>
+    <script>dataLayer = [{'ad': ltx8,'primaryCategory': 'Lifestyle','length': '1501-3000','year': '2016'}];</script><script type="text/javascript">
+           var wemf_url = (('https:' == document.location.protocol) ? 'https://temp-ssl.wemfbox.ch/cgi-bin/ivw/CP/' : 'http://letemps.wemfbox.ch/cgi-bin/ivw/CP/' );
+            var wemf_path = "section/lifestyle";
+        // Minified version of isMobile https://github.com/kaimallea/isMobile.
+        !function(a){var b=/iPhone/i,c=/iPod/i,d=/iPad/i,e=/(?=.*\bAndroid\b)(?=.*\bMobile\b)/i,f=/Android/i,g=/IEMobile/i,h=/(?=.*\bWindows\b)(?=.*\bARM\b)/i,i=/BlackBerry/i,j=/BB10/i,k=/Opera Mini/i,l=/(?=.*\bFirefox\b)(?=.*\bMobile\b)/i,m=new RegExp("(?:Nexus 7|BNTV250|Kindle Fire|Silk|GT-P1000)","i"),n=function(a,b){return a.test(b)},o=function(a){var o=a||navigator.userAgent;return this.apple={phone:n(b,o),ipod:n(c,o),tablet:n(d,o),device:n(b,o)||n(c,o)||n(d,o)},this.android={phone:n(e,o),tablet:!n(e,o)&&n(f,o),device:n(e,o)||n(f,o)},this.windows={phone:n(g,o),tablet:n(h,o),device:n(g,o)||n(h,o)},this.other={blackberry:n(i,o),blackberry10:n(j,o),opera:n(k,o),firefox:n(l,o),device:n(i,o)||n(j,o)||n(k,o)||n(l,o)},this.seven_inch=n(m,o),this.any=this.apple.device||this.android.device||this.windows.device||this.other.device||this.seven_inch,this.phone=this.apple.phone||this.android.phone||this.windows.phone,this.tablet=this.apple.tablet||this.android.tablet||this.windows.tablet,"undefined"==typeof window?this:void 0},p=function(){var a=new o;return a.Class=o,a};"undefined"!=typeof module&&module.exports&&"undefined"==typeof window?module.exports=o:"undefined"!=typeof module&&module.exports&&"undefined"!=typeof window?module.exports=p():"function"==typeof define&&define.amd?define("isMobile",[],a.isMobile=p()):a.isMobile=p()}(this);
+        if (isMobile.phone) {
+          wemf_path = "mobilesite/" + wemf_path;
+        }
+        var NETMX = wemf_url + wemf_path;
+        document.write("<img class=\"wemf\" src=\""+NETMX+"?r="+escape(document.referrer)+"&d="+(Math.random()*100000)+"&x="+screen.width+"x"+screen.height+"\" width=\"1\" height=\"1\" alt=\"\" />");</script><img class="wemf" src="./biere_files/lifestyle" width="1" height="1" alt=""><noscript>&lt;img src="https://temp-ssl.wemfbox.ch/cgi-bin/ivw/CP/section/lifestyle" width="1" height="1" alt="" /&gt;</noscript><!-- Google Tag Manager --><noscript>&lt;iframe src="//www.googletagmanager.com/ns.html?id=GTM-TQ2B8Q&amp;nojs=true" height="0" width="0" style="display:none;visibility:hidden"&gt;&lt;/iframe&gt;</noscript><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-TQ2B8Q');</script><!-- End Google Tag Manager -->
+    <!-- SZMFRABO VERSION="1.1" -->
+<script>
+var szmvars="letemps//CP//";
+if (isMobile.phone) {
+  var szmopt={mobile:true};
+}
+</script>
+<script src="./biere_files/survey.js"></script>
+<!-- /SZMFRABO -->
+
+<header class="header" id="top">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-offset-1 col-lg-10">
+          <div>
+    <div id="block-letemps-branding" class="block block-system">
+  
+    
+        <div class="header-logo text-center">
+      <a class="logo hidden-xs hidden-sm" href="https://www.letemps.ch/" rel="home" title="Le Temps"><img class="img-responsive" src="./biere_files/logo.svg" alt="Le Temps"></a>
+      <a class="logo-mobile visible-xs-block visible-sm-block" href="https://www.letemps.ch/" rel="home" title="Le Temps"><img class="img-responsive" src="./biere_files/logo-square.svg" alt="Le Temps"></a>
+    </div>
+  </div>
+<div class="header-top">
+  
+  
+        
+      <ul class="list-inline">
+          <li class="hidden-xs">           <a href="https://www.letemps.ch/abos" class="">Abonnement</a>
+      </li>
+          <li>           <a href="https://www.letemps.ch/pdf" class="">ePaper/PDF</a>
+      </li>
+          <li>           <a href="https://www.letemps.ch/user/login?destination=/lifestyle/2016/11/30/biere-belge-rumba-cubaine-entrent-patrimoine-immateriel-lunesco" class="menu-link-login">Se connecter</a>
+      </li>
+      </ul>
+  
+
+
+  </div>
+<div class="clearfix"></div>
+
+  </div>
+
+      </div>
+    </div>
+  </div>
+    <div>
+    <div class="navbar-container">
+  <nav class="navbar navbar-default navbar-base affix navbar-pinned navbar-top" id="main-navbar">
+    <div class="navbar-sticky">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-offset-1 col-lg-10">
+            <div class="navbar-header visible-xs">
+              <ul class="list-inline">
+                <li class="visible-affix">
+                  <a href="https://www.letemps.ch/" class="logo-mobile">
+                    <img width="85" height="12" src="./biere_files/logo(1).svg" alt="Le Temps - Site média Suisse" class="img-responsive">
+                  </a>
+                </li>
+                <li class="hidden-affix"><a href="https://www.letemps.ch/">Accueil</a></li>
+                <li><a href="https://www.letemps.ch/en-continu">En continu</a></li>
+                <li>
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-navbar-collapse" aria-expanded="false">
+                    <span class="close-menu">Fermer</span><span class="open-menu">Menu</span> <span class="icon-bars"><span class="icon-bar top-bar"></span><span class="icon-bar middle-bar"></span><span class="icon-bar bottom-bar"></span></span>
+                  </button>
+                </li>
+              </ul>
+            </div>
+
+            <div class="collapse navbar-collapse" id="main-navbar-collapse">
+              <div class="nav-container">
+                <div class="js-priority-wrapper-letemps nav-inner">
+                                                        
+              <ul class="menu nav navbar-nav visible-links">
+                          <li class="dropdown">
+                      <a href="https://www.letemps.ch/monde" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="navbar-item">Rubriques</span> <i class="ltpsicon ltpsicon-chevron-down"></i></a>
+                          <ul class="dropdown-menu">
+                          <li>
+                                    <a href="https://www.letemps.ch/monde" class="">Monde</a>
+                              </li>
+                      <li>
+                                    <a href="https://www.letemps.ch/suisse" class="">Suisse</a>
+                              </li>
+                      <li>
+                                    <a href="https://www.letemps.ch/economie" class="">Économie</a>
+                              </li>
+                      <li>
+                                    <a href="https://www.letemps.ch/culture" class="">Culture</a>
+                              </li>
+                      <li>
+                                    <a href="https://www.letemps.ch/sciences" class="">Sciences</a>
+                              </li>
+                      <li>
+                                    <a href="https://www.letemps.ch/sport" class="">Sport</a>
+                              </li>
+                      <li>
+                                    <a href="https://www.letemps.ch/societe" class="">Société</a>
+                              </li>
+                      <li>
+                                    <a href="https://www.letemps.ch/lifestyle" class="">Lifestyle</a>
+                              </li>
+          </ul>
+  
+                  </li>
+                      <li>
+                                    <a href="https://www.letemps.ch/en-continu" class=""><span class="navbar-item">En continu</span></a>
+                              </li>
+                      <li>
+                                    <a href="https://www.letemps.ch/opinions" class=""><span class="navbar-item">Opinions</span></a>
+                              </li>
+                      <li>
+                                    <a href="https://blogs.letemps.ch/" class=""><span class="navbar-item">Blogs</span></a>
+                              </li>
+                      <li class="dropdown">
+                      <a href="https://www.letemps.ch/images/photographies" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="navbar-item">Multimédia</span> <i class="ltpsicon ltpsicon-chevron-down"></i></a>
+                          <ul class="dropdown-menu">
+                          <li>
+                                    <a href="https://www.letemps.ch/images/photographies" class="">Photographies</a>
+                              </li>
+                      <li>
+                                    <a href="https://www.letemps.ch/images/video" class="">Vidéo</a>
+                              </li>
+                      <li>
+                                    <a href="https://www.letemps.ch/dossier" class="">Dossiers</a>
+                              </li>
+                      <li>
+                                    <a href="https://www.letemps.ch/images/interactif" class="">Interactif</a>
+                              </li>
+                      <li>
+                                    <a href="https://www.letemps.ch/images/chappatte" class="">Chappatte</a>
+                              </li>
+          </ul>
+  
+                  </li>
+          </ul>
+  
+
+
+                                    <ul class="nav navbar-nav navbar-priority">
+                    <li class="dropdown">
+                      <a href="https://www.letemps.ch/lifestyle/2016/11/30/biere-belge-rumba-cubaine-entrent-patrimoine-immateriel-lunesco#" class="more hidden dropdown-toggle text-uppercase" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" count="0">Plus <i class="ltpsicon ltpsicon-chevron-down"></i></a>
+                      <ul class="hidden-links dropdown-menu"></ul>
+                    </li>
+                  </ul>
+                </divi
+                                uul class="nav navbar-nav navbar-search navbar-right">
+                  <li>
+                    <a href="https://www.letemps.ch/search">RECHERCHER <span class="fa fa-search sr-hidden"></span></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="clearfix"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+</div>
+<div class="np8-search-block navbar-search collapse" data-drupal-selector="np8-search-block" id="block-letemps-searchform">
+  
+    
+      <form action="https://www.letemps.ch/search" method="GET" id="np8-search-block" accept-charset="UTF-8">
+  <div class="form-group js-form-item form-item js-form-type-textfield form-item-keywords js-form-item-keywords form-no-label">
+      <label for="edit-keywords" class="visually-hidden js-form-required form-required">Mots-clés</label>
+        <input title="Enter your search keywords." data-drupal-selector="edit-keywords" type="text" id="edit-keywords" name="keywords" value="" size="15" maxlength="128" placeholder="Mots-clés" class="form-text required form-control" required="required" aria-required="true">
+
+        </div>
+<div data-drupal-selector="edit-actions" class="form-actions js-form-wrapper form-wrapper" id="edit-actions"><input data-drupal-selector="edit-submit" type="submit" id="edit-submit--8" name="search" value="Rechercher" class="button js-form-submit form-submit btn">
+</div>
+
+</form>
+
+  </div>
+<div id="block-letemps-breadcrumbs" class="region-breadcrumb block block-system">
+  
+    
+      <div class="container">
+  <div class="row">
+    <div class="col-lg-offset-1 col-lg-10">
+      <nav role="navigation" aria-labelledby="system-breadcrumb">
+        <span class="visually-hidden">Fil d'Ariane</span>
+        <ol class="breadcrumb">
+        <li class="visible-xs-inline"><a href="https://www.letemps.ch/lifestyle/2016/11/30/biere-belge-rumba-cubaine-entrent-patrimoine-immateriel-lunesco"><i class="small ltpsicon ltpsicon-home"></i></a></li>
+                  <li class="hidden-xs">
+                          <a href="https://www.letemps.ch/">Accueil</a>
+                      </li>
+                  <li>
+                          <a href="https://www.letemps.ch/lifestyle">Lifestyle</a>
+                      </li>
+                  <li class="active">
+                          La bière belge et la rumba cubaine entrent au patrimoine immatériel de l’Unesco
+                      </li>
+                </ol>
+      </nav>
+    </div>
+  </div>
+</div>
+
+  </div>
+
+  </div>
+
+    <div class="region region-top-right">
+    <div id="block-adtechblock-6" class="hidden-xs block block-np8-adtech" style="left: 1383px;">
+  
+    
+        <div id="adtech-583f20ed10e4c" class="adtech adtech__02desktopskyscraper adtech__5819821"></div>
+
+    </div>
+
+  </div>
+
+    <div>
+    
+<div class="container">
+  <div class="row">
+    <div class="col-lg-offset-1 col-lg-10">
+      <div id="block-ads-top" class="block block-np8-adtech">
+        
+                
+                  <div id="adtech-583ee0cff3d13" class="adtech adtech__01desktopwideboard adtech__5819814"></div>
+
+              </div>
+    </div>
+  </div>
+</div>
+
+  </div>
+
+</header>
+
+
+<main>
+  <a id="main-content" tabindex="-1"></a>
+  
+  
+  
+    <div>
+    
+
+<div id="block-letemps-content" class="block block-system">
+  
+    
+      
+
+<div class="alert alert-info alert-dismissible alert-paywall" style="display:none">
+    <div class="container text-center">
+        <span class="paywall-graph">
+        Encore
+            <span class="pie-number">
+                <span class="num_left">9</span>
+                 <span class="donut" data-peity="{ &quot;innerRadius&quot;: 12, &quot;radius&quot;: 14 }" style="display: none;">1/10</span><svg class="peity" height="28" width="28"><path d="M 14 0 A 14 14 0 0 1 22.228993532094623 2.6737620787507357 L 21.053423027509677 4.291796067500631 A 12 12 0 0 0 14 2" fill="#ff9900"></path><path d="M 22.228993532094623 2.6737620787507357 A 14 14 0 1 1 13.999999999999998 0 L 13.999999999999998 2 A 12 12 0 1 0 21.053423027509677 4.291796067500631" fill="#fff4dd"></path></svg>
+            </span> articles gratuits à lire
+        </span>
+        <span class="subscribe"><!-- .hidden-xs •&nbsp; --><a href="https://boutique.letemps.ch/index.php?dispatch=shop_matrix.show&amp;utm_source=website&amp;utm_medium=bottom-banner&amp;utm_campaign=paywall&amp;utm_content=1023180">S'abonner</a> pour en lire plus</span>
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">×</span></button>
+    </div>
+</div>
+
+<article data-paywall-nid="1023180" class="paywall_article" itemscope="" itemtype="http://schema.org/NewsArticle">
+<meta itemprop="mainEntityOfPage" content="https://www.letemps.ch/lifestyle/2016/11/30/biere-belge-rumba-cubaine-entrent-patrimoine-immateriel-lunesco">
+<div itemprop="publisher" itemscope="" itemtype="https://schema.org/Organization">
+    <meta itemprop="name" content="Le Temps">
+    <link itemprop="logo" href="https://www.letemps.ch/lifestyle/2016/11/30/biere-belge-rumba-cubaine-entrent-patrimoine-immateriel-lunesco">
+    <div itemprop="logo" itemscope="" itemtype="https://schema.org/ImageObject">
+      <meta itemprop="url" content="https://assets.letemps.ch/themes/custom/letemps/logo-amp.png">
+      <meta itemprop="width" content="324">
+      <meta itemprop="height" content="60">
+    </div>
+    <link itemprop="sameAs" href="https://www.letemps.ch/">
+</div>
+        <figure itemprop="associatedMedia image" itemscope="" itemtype="http://schema.org/ImageObject" class="picture picture-cover ad-skyscraper-pusher">
+        <meta itemprop="representativeOfPage" content="true">
+        <meta itemprop="url" content="https://assets.letemps.ch/sites/default/files/media/2016/11/30/file6si1xt8v8af16ndsm8ua.jpg">
+        <meta itemprop="width" content="2644">
+        <meta itemprop="height" content="1782">
+        
+    <img class="picture" itemprop="contentUrl" src="./biere_files/file6si1xt8v8af16ndsm8ua.jpg" width="1280" height="505" alt="" title="A Bruxelles, 25 novembre 2016.">
+
+
+
+  <button type="button" class="picture-caption-icon" title="Plus d&#39;information sur l&#39;image">
+    <i class="fa fa-info"></i><span class="sr-only">Plus d'information sur l'image</span>
+  </button>
+  <figcaption itemprop="description">A Bruxelles, 25&nbsp;novembre 2016.
+          <br><span class="picture-copyright" itemprop="copyrightHolder">© FRANCOIS LENOIR</span>
+      </figcaption>
+
+    </figure>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-3 col-md-2">
+                <section class="article-info hidden-xs text-sans-serif" style="display: block;">
+                    <p class="reading-time" style="border-bottom:none;margin-bottom:0;">
+    <i class="ltpsicon ltpsicon-watch"></i><span>2 minutes</span>
+    de lecture
+</p>
+
+
+<p>
+            AFP/LT<br>
+    
+    <meta itemprop="datePublished" content="2016-11-30T14:24:00+01:00">
+    <meta itemprop="dateModified" content="2016-11-30T14:24:24+01:00">
+            Publié mercredi 30 novembre 2016 à 14:24.
+    </p>
+                </section>
+            </div>
+            <div class="col-sm-9 col-md-6">
+                <div class="article-content article-content-inset gallery main-content" data-pswp-uid="1">
+
+                    <h2 class="label label-primary" style="margin-bottom:0">recension</h2>
+                    <h1 itemprop="headline"><span>La bière belge et la rumba cubaine entrent au patrimoine immatériel de l’Unesco</span>
+</h1>                     <p class="lead" itemprop="description">Les 1500 breuvages de Belgique et la danse cubaine reçoivent la protection symbolique de l’agence onusienne. La Fête des vignerons est en lice</p>
+
+                    <section class="article-info visible-xs-block text-sans-serif" style="display: block;">
+                        <p class="reading-time" style="border-bottom:none;margin-bottom:0;">
+    <i class="ltpsicon ltpsicon-watch"></i><span>2 minutes</span>
+    de lecture
+</p>
+
+
+<p>
+            AFP/LT<br>
+    
+    <meta itemprop="datePublished" content="2016-11-30T14:24:00+01:00">
+    <meta itemprop="dateModified" content="2016-11-30T14:24:24+01:00">
+            Publié mercredi 30 novembre 2016 à 14:24.
+    </p>
+                    </section>
+
+                    <div class="article_body" itemprop="articleBody" style="display: block;">
+                        <div class="share">
+    <p class="text-uppercase">Partage</p>
+    <ul class="list-unstyled">
+        <li class="fb">
+            <a href="https://www.facebook.com/sharer.php?u=https://www.letemps.ch/lifestyle/2016/11/30/biere-belge-rumba-cubaine-entrent-patrimoine-immateriel-lunesco%3Futm_source%3Dfacebook%26utm_medium%3Dshare%26utm_campaign%3Darticle&amp;display=popup&amp;ref=plugin&amp;src=share_button" class="share-facebook" data-href="https://www.letemps.ch/lifestyle/2016/11/30/biere-belge-rumba-cubaine-entrent-patrimoine-immateriel-lunesco%3Futm_source%3Dfacebook%26utm_medium%3Dshare%26utm_campaign%3Darticle" data-send="false" data-action="share" data-layout="button" rel="nofollow" target="_blank">
+               <!-- <span class="sr-only">Partager sur Facebook</span> --><span><i class="fa fa-facebook"></i><span> Partager</span></span>
+            </a>
+        </li>
+        <li class="tw">
+            <a href="https://twitter.com/intent/tweet?text=La%20bi%C3%A8re%20belge%20et%20la%20rumba%20cubaine%20entrent%20au%20patrimoine%20immat%C3%A9riel%20de%20l%E2%80%99Unesco%0D%0Ahttps://www.letemps.ch/lifestyle/2016/11/30/biere-belge-rumba-cubaine-entrent-patrimoine-immateriel-lunesco%3Futm_source%3Dtwitter%26utm_medium%3Dshare%26utm_campaign%3Darticle%20&amp;via=letemps" class="share-twitter" data-text="La%20bi%C3%A8re%20belge%20et%20la%20rumba%20cubaine%20entrent%20au%20patrimoine%20immat%C3%A9riel%20de%20l%E2%80%99Unesco" data-count="none" rel="nofollow" target="_blank">
+                <!-- <span class="sr-only">Partager sur Twitter</span> <--><span><i class="fa fa-twitter"></i><span> Tweeter</span></span>
+            </a>
+        </li>
+        <li class="li">
+            <a href="https://www.linkedin.com/shareArticle?url=https://www.letemps.ch/lifestyle/2016/11/30/biere-belge-rumba-cubaine-entrent-patrimoine-immateriel-lunesco%3Futm_source%3Dlinkedin%26utm_medium%3Dshare%26utm_campaign%3Darticle&amp;mini=true&amp;title=La%20bi%C3%A8re%20belge%20et%20la%20rumba%20cubaine%20entrent%20au%20patrimoine%20immat%C3%A9riel%20de%20l%E2%80%99Unesco&amp;summary=Les%201500%20breuvages%20de%20Belgique%20et%20la%20danse%20cubaine%20re%C3%A7oivent%20la%20protection%20symbolique%20de%20l%E2%80%99agence%20onusienne.%20La%20F%C3%AAte%20des%20vignerons%20est%20en%20lice&amp;source=Le%20Temps" class="share-linkedin" rel="nofollow" target="_blank">
+               <!--  <span class="sr-only">Partager sur Linkedin</span> <--><span><i class="fa fa-linkedin"></i><span> Partager</span></span>
+            </a>
+        </li>
+        <li class="wa visible-xs-inline">
+            <a href="whatsapp://send?text=La%20bi%C3%A8re%20belge%20et%20la%20rumba%20cubaine%20entrent%20au%20patrimoine%20immat%C3%A9riel%20de%20l%E2%80%99Unesco%20https%3A%2F%2Fwww.letemps.ch%2Flifestyle%2F2016%2F11%2F30%2Fbiere-belge-rumba-cubaine-entrent-patrimoine-immateriel-lunesco%3Futm_source%3Dwhatsapp%26utm_medium%3Dshare%26utm_campaign%3Darticle" class="share-whatsapp" rel="nofollow" target="_blank">
+                <!-- <span class="sr-only">Partager sur WhatsApp</span> <--><span><i class="fa fa-whatsapp"></i></span>
+            </a>
+        </li>
+        <li class="email">
+            <a class="share-email"><span data-toggle="modal" data-target="#share-by-mail-modal" data-modal-title="Partager un article"><i class="fa fa-envelope"></i></span></a>
+        </li>
+    </ul>
+</div>
+
+                        
+                        
+            <div><p class="bodytext">La culture de la bière en Belgique et la rumba cubaine ont été sacrées mercredi «patrimoine culturel immatériel» de l’humanité par une décision du comité ad hoc de l’Unesco réuni à Addis Abeba, a annoncé l’organisation dans un communiqué.</p><p class="bodytext">La célébration du Nouvel An le 21&nbsp;mars par 12 pays (Afghanistan, Azerbaïdjan, Inde, Iran, Iraq, Kazakhstan, Kirghizistan, Ouzbékistan, Pakistan, Tadjikistan, Turkménistan et Turquie), connue notamment sous le nom de «Nowruz» en Inde et en Iran s’ajoute à la liste de cinq nouveaux entrants sur la liste du patrimoine culturel immatériel. Un événement festif (Mangal Shobhajatra) créé par des étudiants au Bangladesh et les anciennes 24 périodes solaires chinoises précieuses pour les agriculteurs complètent la liste.</p><h3 class="bodytext">1500 bières, un patrimoine</h3><p class="bodytext">Avec près de 1500 types de bière différents, «la fabrication et l’appréciation» de cette boisson «font partie du patrimoine vivant de plusieurs communautés réparties dans l’ensemble de la Belgique», avait argumenté Bruxelles. «Cette culture joue un rôle dans leur vie quotidienne et lors des événements festifs», est-il souligné dans le communiqué de l’Unesco.</p><p class="bodytext"><strong>A propos de bière</strong>, voir <a href="https://labs.letemps.ch/interactive/2016/360-brasserie/">notre visite en 360° d’une brasserie artisanale</a>.</p><h3 class="bodytext">Cuba a défendu sa danse</h3><p class="bodytext">Cuba, de son côté, avait défendu l’inscription de la rumba «mélange festif de musiques et de danses», «symbole d’une société marginalisée à Cuba».</p><p class="bodytext">«La rumba à Cuba, avec ses chants, ses mouvements, ses gestes et sa musique, est une expression de résistance et d’estime de soi qui évoque également la grâce, la sensualité et la joie de rapprocher les individus», résume le communiqué de l’Unesco.</p><h3 class="bodytext">… et bientôt Vevey?</h3><p class="bodytext">Le Comité de sauvegarde du patrimoine culturel immatériel de l’humanité, qui siège depuis le 28&nbsp;novembre et jusqu’au 2&nbsp;décembre en Ethiopie, examine les dossiers de 37 candidats à l’inscription sur sa liste «représentative» des différents types de patrimoine vivant (danse, musique, gastronomie, fêtes ou festivals…).</p><p class="bodytext">Dans les sélections qui vont tomber ces jours figurera peut-être la Fête des vignerons, qui est dans la course.</p><p class="bodytext">
+        <strong>Lire: </strong>
+        <a href="https://www.letemps.ch/suisse/2015/03/30/fete-vignerons-premier-candidat-suisse-patrimoine-immateriel">La Fête des Vignerons est le premier candidat suisse au patrimoine immatériel</a>
+      </p><p class="bodytext">Sur le plan des biens matériels, en juillet dernier, après moult épisodes, l’œuvre du Corbusier a été couronnée.</p><p class="bodytext">
+        <strong>A ce sujet: </strong>
+        <a href="https://www.letemps.ch/culture/2016/07/17/loeuvre-architecturale-corbusier-lunesco">L’œuvre architecturale de Le Corbusier à l’Unesco</a>
+      </p></div>
+      
+
+                        <div class="share">
+    <p class="text-uppercase">Partage</p>
+    <ul class="list-unstyled">
+        <li class="fb">
+            <a href="https://www.facebook.com/sharer.php?u=https://www.letemps.ch/lifestyle/2016/11/30/biere-belge-rumba-cubaine-entrent-patrimoine-immateriel-lunesco%3Futm_source%3Dfacebook%26utm_medium%3Dshare%26utm_campaign%3Darticle&amp;display=popup&amp;ref=plugin&amp;src=share_button" class="share-facebook" data-href="https://www.letemps.ch/lifestyle/2016/11/30/biere-belge-rumba-cubaine-entrent-patrimoine-immateriel-lunesco%3Futm_source%3Dfacebook%26utm_medium%3Dshare%26utm_campaign%3Darticle" data-send="false" data-action="share" data-layout="button" rel="nofollow" target="_blank">
+               <!-- <span class="sr-only">Partager sur Facebook</span> --><span><i class="fa fa-facebook"></i><span> Partager</span></span>
+            </a>
+        </li>
+        <li class="tw">
+            <a href="https://twitter.com/intent/tweet?text=La%20bi%C3%A8re%20belge%20et%20la%20rumba%20cubaine%20entrent%20au%20patrimoine%20immat%C3%A9riel%20de%20l%E2%80%99Unesco%0D%0Ahttps://www.letemps.ch/lifestyle/2016/11/30/biere-belge-rumba-cubaine-entrent-patrimoine-immateriel-lunesco%3Futm_source%3Dtwitter%26utm_medium%3Dshare%26utm_campaign%3Darticle%20&amp;via=letemps" class="share-twitter" data-text="La%20bi%C3%A8re%20belge%20et%20la%20rumba%20cubaine%20entrent%20au%20patrimoine%20immat%C3%A9riel%20de%20l%E2%80%99Unesco" data-count="none" rel="nofollow" target="_blank">
+                <!-- <span class="sr-only">Partager sur Twitter</span> <--><span><i class="fa fa-twitter"></i><span> Tweeter</span></span>
+            </a>
+        </li>
+        <li class="li">
+            <a href="https://www.linkedin.com/shareArticle?url=https://www.letemps.ch/lifestyle/2016/11/30/biere-belge-rumba-cubaine-entrent-patrimoine-immateriel-lunesco%3Futm_source%3Dlinkedin%26utm_medium%3Dshare%26utm_campaign%3Darticle&amp;mini=true&amp;title=La%20bi%C3%A8re%20belge%20et%20la%20rumba%20cubaine%20entrent%20au%20patrimoine%20immat%C3%A9riel%20de%20l%E2%80%99Unesco&amp;summary=Les%201500%20breuvages%20de%20Belgique%20et%20la%20danse%20cubaine%20re%C3%A7oivent%20la%20protection%20symbolique%20de%20l%E2%80%99agence%20onusienne.%20La%20F%C3%AAte%20des%20vignerons%20est%20en%20lice&amp;source=Le%20Temps" class="share-linkedin" rel="nofollow" target="_blank">
+               <!--  <span class="sr-only">Partager sur Linkedin</span> <--><span><i class="fa fa-linkedin"></i><span> Partager</span></span>
+            </a>
+        </li>
+        <li class="wa visible-xs-inline">
+            <a href="whatsapp://send?text=La%20bi%C3%A8re%20belge%20et%20la%20rumba%20cubaine%20entrent%20au%20patrimoine%20immat%C3%A9riel%20de%20l%E2%80%99Unesco%20https%3A%2F%2Fwww.letemps.ch%2Flifestyle%2F2016%2F11%2F30%2Fbiere-belge-rumba-cubaine-entrent-patrimoine-immateriel-lunesco%3Futm_source%3Dwhatsapp%26utm_medium%3Dshare%26utm_campaign%3Darticle" class="share-whatsapp" rel="nofollow" target="_blank">
+                <!-- <span class="sr-only">Partager sur WhatsApp</span> <--><span><i class="fa fa-whatsapp"></i></span>
+            </a>
+        </li>
+        <li class="email">
+            <a class="share-email"><span data-toggle="modal" data-target="#share-by-mail-modal" data-modal-title="Partager un article"><i class="fa fa-envelope"></i></span></a>
+        </li>
+    </ul>
+</div>
+                    </div>
+
+                    
+                    <div class="ad-container text-centered">
+                        <div class="ad-container">
+  <div class="ad" style="display: inline-block;"><small>Publicité</small>
+    <div id="adtech-583f20ecd64e9" class="adtech adtech__05desktopmonsterboard adtech__5819822"></div>
+  </div>
+</div>
+
+                    </div>
+                </div>
+
+                <div class="spacer spacer-sm"></div>
+
+                                
+            </div>
+            <div class="visible-md-block visible-lg-block col-md-4 text-right">
+                <div class="spacer spacer-md"></div>
+                                <div class="ad-container text-centered">
+                    <div class="ad-container">
+  <div class="ad" style="display: inline-block;"><small>Publicité</small>
+    <div id="adtech-583f20ecd63c6" class="adtech adtech__03desktophalfpageadatf adtech__5819816"></div>
+  </div>
+</div>
+
+                </div>
+                <div class="ad-container text-centered"><div id="adtech-583f20ecd6606" class="adtech adtech__12desktoptextteaser adtech__5825661"></div>
+</div>
+            </div>
+        </div>
+    </div>
+</article>
+
+<div class="paywall-article" style="display: none;">
+<div class="bg-gray-lighter">
+    <div class="spacer spacer-md"></div>
+    <div class="container">
+
+        <div class="row anon_num_articles reg_num_articles" style="display:none">
+            <div class="col-sm-offset-1 col-sm-10 text-center">
+                <p class="text-medium text-nevada">Vous avez atteint le nombre maximum d'articles disponibles gratuitement<sup>*</sup>.</p>
+                <p class="h3 text-thin login"><a href="https://boutique.letemps.ch/index.php?dispatch=shop_matrix.show&amp;utm_source=website&amp;utm_medium=link&amp;utm_campaign=paywall&amp;utm_content=1023180">Abonnez-vous</a> ou si vous êtes déjà abonné <a href="https://www.letemps.ch/user/login?destination=/lifestyle/2016/11/30/biere-belge-rumba-cubaine-entrent-patrimoine-immateriel-lunesco">connectez-vous</a></p>
+                <div class="spacer spacer-sm"></div>
+                <p><a class="btn btn-primary btn-lg" href="https://boutique.letemps.ch/index.php?dispatch=shop_matrix.show&amp;utm_source=website&amp;utm_medium=button&amp;utm_campaign=paywall&amp;utm_content=1023180">S'abonner</a>
+                </p><div class="spacer spacer-sm"></div>
+            </div>
+                        <div class="col-sm-offset-2 col-sm-8 col-md-offset-3 col-md-6 text-center">
+                <small><sup>*</sup>Vous bénéficiez de 10 articles gratuits chaque mois.</small>
+                <div class="spacer"></div>
+            </div>
+        </div>
+
+        
+
+<!-- start offers -->
+    <div class="subscribe" style="display:none">
+        <!--
+        <div class="row">
+            <div class="col-lg-offset-1 col-lg-10">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <a href="#" class="product-card">
+                            <h3 class="h4">Abonnement<br>Digital</h3>
+                            <img class="img-responsive" src="/themes/custom/letemps/assets/svg/abo-digital.svg" onerror="this.onerror=null; this.src='/themes/custom/letemps/assets/img/abo-digital.png'" alt="abo-digital" />
+                            <div class="product-content">
+                                <p>Accès digital intégral<br><span class="text-primary text-uppercase small">Sans engagement</span></p>
+                                <span class="text-primary text-lg">Dès 9.-/mois</span></p>
+                            </div>
+                            <button class="btn btn-primary btn-lg">S'abonner</button>
+                            <p class="text-muted"></p>
+                        </a>            <ul class="list-group">
+                            <li class="list-group-item">Supports numériques</li>
+                            <li class="list-group-item">Consultation illimitée</li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-4">
+                        <a href="#" class="product-card">
+                            <h3 class="h4">Abonnement<br>Digital & Week-end</h3>
+                            <img class="img-responsive" src="/themes/custom/letemps/assets/svg/abo-1jour.svg" onerror="this.onerror=null; this.src='/themes/custom/letemps/assets/img/abo-1jour.png'" alt="abo-1jour" />
+                            <div class="product-content">
+                                <p>Accès digital intégral<br>& le journal du samedi</p>
+                                <span class="text-primary text-lg">Dès 39.-/mois</span></p>
+                            </div>
+                            <button class="btn btn-primary btn-lg">S'abonner</button>
+                            <p class="text-muted"></p>
+                        </a>            <ul class="list-group">
+                            <li class="list-group-item">Supports numériques</li>
+                            <li class="list-group-item">Consultation illimitée</li>
+                            <li class="list-group-item">Versions PDF</li>
+                            <li class="list-group-item"><strong>Édition papier du samedi avec les suppléments</strong></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-4">
+                        <a href="#" class="product-card">
+                            <h3 class="h4">Abonnement<br>Premium</h3>
+                            <img class="img-responsive" src="/themes/custom/letemps/assets/svg/abo-7jours.svg" onerror="this.onerror=null; this.src='/themes/custom/letemps/assets/img/abo-7jours.png'" alt="abo-7jours" />
+                            <div class="product-content">
+                                <p>Accès digital intégral &<br>le journal toute la semaine</p>
+                                <span class="text-primary text-lg">Dès 44.-/mois</span></p>
+                            </div>
+                            <button class="btn btn-primary btn-lg">S'abonner</button>
+                            <p class="text-muted"></p>
+                        </a>            <ul class="list-group">
+                            <li class="list-group-item">Supports numériques</li>
+                            <li class="list-group-item">Consultation illimitée</li>
+                            <li class="list-group-item">Versions PDF</li>
+                            <li class="list-group-item"><strong>Édition papier toute la semaine avec les suppléments</strong></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="spacer"></div>
+        <div class="row">
+            <div class="col-sm-offset-1 col-sm-10 col-md-offset-2 col-md-8">
+                <p class="text-center">Chaque offre propose le choix de paiement mensuel ou par année avec un rabais de 15%.</p>
+                <div class="spacer spacer-sm"></div>
+            </div>
+        </div>
+        -->
+    </div>
+<!-- end offers -->
+    </div>
+</div>
+<div class="spacer"></div>
+</div>
+
+
+<div class="container related-news">
+    <div class="row">
+        <div class="col-lg-10 col-lg-offset-1">
+            <div class="spacer spacer-xs"></div>
+            <h2 class="text-center section-title">Articles de la rubrique</h2>
+            <div class="spacer spacer-sm"></div>
+            <div class="article-cards">
+
+
+
+                <a class="article-card thumbnail link link-text" href="https://www.letemps.ch/lifestyle/2016/11/30/rencontrez-youtubeurs-scientifiques-rendent-science-plus-cool">
+                    <div class="picture-label">
+                        <figure class="picture picture-card picture-hover-effect">
+
+
+                            <img src="./biere_files/danstoncorps.jpg" width="308" height="121" alt="">
+
+
+
+
+
+                        </figure>
+                        <span class="label label-primary"></span>
+                    </div>
+                    <div class="caption">
+                        <h4 class="h5 no-margin">Rencontrez ces Youtubeurs scientifiques qui rendent la science plus cool </h4>
+                        <p class="text-serif">Dans le cadre du Montreux Comedy, «Le Temps» vous offre des places pour assister à une conférence
+                            avec des vulgarisateurs d’un nouveau genre, les Youtubers scientifiques
+                        </p>
+                    </div>
+                </a>
+
+                <a class="article-card thumbnail link link-text" href="https://www.letemps.ch/lifestyle/2016/11/29/achetez-vos-cadeaux-aux-encheres-montreux">
+                    <div class="picture-label">
+                        <figure class="picture picture-card picture-hover-effect">
+
+
+                            <img src="./biere_files/file6sk5rpsja4hlkwbz8to.jpg" width="308" height="121" alt="" title="Quelques-unes des œuvres mises en vente ce dimanche à Montreux.">
+
+
+
+
+
+                        </figure>
+                        <span class="label label-primary">Un jour, une idée</span>
+                    </div>
+                    <div class="caption">
+                        <h4 class="h5 no-margin">Achetez vos cadeaux aux enchères à Montreux</h4>
+                        <p class="text-serif">Marc Gaudet-Blavignac, le commissaire-priseur genevois qui a lancé InSitu Auctions en mars dernier,
+                            organise une vente ce week-end sur la Riviera vaudoise</p>
+                    </div>
+                </a>
+
+                <a class="article-card thumbnail link link-text" href="https://www.letemps.ch/lifestyle/2016/11/30/tresors-cuisine-maison-vieille-ville-geneve">
+                    <div class="picture-label">
+                        <figure class="picture picture-card picture-hover-effect">
+
+
+                            <img src="./biere_files/file6sk1civo6vkhqnmk8u7.jpg" width="308" height="121" alt="" title="Tips, une ambiance au charme suranné.">
+
+
+
+
+
+                        </figure>
+                        <span class="label label-primary">Un jour, une idée</span>
+                    </div>
+                    <div class="caption">
+                        <h4 class="h5 no-margin">Des trésors pour la cuisine et la maison&nbsp;en vieille ville de Genève</h4>
+                        <p class="text-serif">Chez Tip’s, on trouve une ribambelle d’objets contemporains de belle facture et de haute qualité.
+                            Un magasin comme on n’en fait (presque) plus</p>
+                    </div>
+                </a>
+
+
+
+
+            </div>
+        </div>
+    </div>
+    <!--- BEGIN CUSTOM ARCHIVE BOX -->
+    <div class="row">
+        <div class="col-lg-10 col-lg-offset-1">
+            <div class="spacer spacer-xs"></div>
+            <h2 class="text-center section-title">Articles des Archives</h2>
+            <div class="spacer spacer-sm"></div>
+            <div class="article-cards">
+
+                <a class="article-card thumbnail link link-text" href="https://www.letemps.ch/lifestyle/2016/11/30/rencontrez-youtubeurs-scientifiques-rendent-science-plus-cool">
+                    <div class="picture-label">
+                        <figure class="picture picture-card picture-hover-effect">
+                            <img src="./biere_files/danstoncorps.jpg" width="308" height="121" alt="">
+                        </figure>
+                        <span class="label label-primary"></span>
+                    </div>
+                    <div class="caption">
+                        <h4 class="h5 no-margin">Rencontrez ces Youtubeurs scientifiques qui rendent la science plus cool </h4>
+                        <p class="text-serif">Dans le cadre du Montreux Comedy, «Le Temps» vous offre des places pour assister à une conférence
+                            avec des vulgarisateurs d’un nouveau genre, les Youtubers scientifiques
+                        </p>
+                    </div>
+                </a>
+
+                <a class="article-card thumbnail link link-text" href="https://www.letemps.ch/lifestyle/2016/11/29/achetez-vos-cadeaux-aux-encheres-montreux">
+                    <div class="picture-label">
+                        <figure class="picture picture-card picture-hover-effect">
+                            <img src="./biere_files/file6sk5rpsja4hlkwbz8to.jpg" width="308" height="121" alt="" title="Quelques-unes des œuvres mises en vente ce dimanche à Montreux.">
+                        </figure>
+                        <span class="label label-primary">Un jour, une idée</span>
+                    </div>
+                    <div class="caption">
+                        <h4 class="h5 no-margin">Achetez vos cadeaux aux enchères à Montreux</h4>
+                        <p class="text-serif">Marc Gaudet-Blavignac, le commissaire-priseur genevois qui a lancé InSitu Auctions en mars dernier,
+                            organise une vente ce week-end sur la Riviera vaudoise</p>
+                    </div>
+                </a>
+
+                <a class="article-card thumbnail link link-text" href="https://www.letemps.ch/lifestyle/2016/11/30/tresors-cuisine-maison-vieille-ville-geneve">
+                    <div class="picture-label">
+                        <figure class="picture picture-card picture-hover-effect">
+
+                            <img src="./biere_files/file6sk1civo6vkhqnmk8u7.jpg" width="308" height="121" alt="" title="Tips, une ambiance au charme suranné.">
+
+                        </figure>
+                        <span class="label label-primary">Un jour, une idée</span>
+                    </div>
+                    <div class="caption">
+                        <h4 class="h5 no-margin">Des trésors pour la cuisine et la maison&nbsp;en vieille ville de Genève</h4>
+                        <p class="text-serif">Chez Tip’s, on trouve une ribambelle d’objets contemporains de belle facture et de haute qualité.
+                            Un magasin comme on n’en fait (presque) plus</p>
+                    </div>
+                </a>
+
+            </div>
+        </div>
+    </div>
+    <!--- END CUSTOM ARCHIVE BOX -->
+    <div class="spacer spacer-md"></div>
+</div>
+<div class="bg-gray-lighter most-read">
+  <div class="container">
+    <div class="row">
+      <section class="col-md-3 col-md-offset-1">
+        <h2 class="section-title">Articles les plus lus</h2>
+        <div class="top-news-container" data-fetch="https://labs.letemps.ch/feeds/top.json"><ol class="rating-list">
+<li>
+  	<a href="http://www.letemps.ch/opinions/2016/11/30/francois-hollande-ne-se-representer" class="h4 top-internal-link">Pourquoi François Hollande ne doit pas se représenter</a>
+</li>
+<li>
+  	<a href="http://www.letemps.ch/suisse/2016/11/29/se-preparer-pire-valais-consulte-un-sulfureux-survivaliste" class="h4 top-internal-link">Pour se préparer au pire, le Valais consulte un sulfureux survivaliste</a>
+</li>
+<li>
+  	<a href="http://www.letemps.ch/opinions/2016/11/30/mensonge-gouvernants-un-poison-leurope" class="h4 top-internal-link">Le mensonge des gouvernants: un poison pour l’Europe</a>
+</li>
+<li>
+  	<a href="http://www.letemps.ch/monde/2016/11/29/mort-pourrait-faire-exploser-kosovo" class="h4 top-internal-link">Ce mort de trop qui pourrait faire exploser le Kosovo</a>
+</li>
+<li>
+  	<a href="http://www.letemps.ch/sciences/2016/11/28/champ-magnetique-terrestre-vatil-lacher" class="h4 top-internal-link">Le champ magnétique terrestre&nbsp;va-t-il nous lâcher?</a>
+</li>
+<li>
+  	<a href="http://labs.letemps.ch/interactive/2016/graphique-emploi/" class="h4 top-internal-link">L’emploi suisse sous la loupe (1991-2016)</a>
+</li>
+<li>
+  	<a href="http://www.letemps.ch/suisse/2016/11/30/methode-perilleuse-dun-policier-genevois-voulait-sauver-cadillac" class="h4 top-internal-link">La méthode périlleuse d’un policier genevois qui voulait sauver sa Cadillac</a>
+</li>
+</ol>
+</div>
+      </section>
+      <section class="col-md-6 col-md-offset-1 square-display">
+        <h2 class="section-title">En continu</h2>
+          
+    
+      
+            <div class="article-teaser">
+    <a class="article-figure" href="https://www.letemps.ch/culture/2016/11/30/lart-un-parcours-vie-plais-tokyo">
+        <div class="picture-label">
+            <figure class="picture picture-card picture-hover-effect">
+                    <picture>
+                <!--[if IE 9]><video style="display: none;"><![endif]-->
+              <source srcset="https://assets.letemps.ch/sites/default/files/styles/lt_article_full/public/media/2016/11/30/file6skoimiorsy6xxhy8n3.jpg?itok=pRojbJn_ 1x, https://assets.letemps.ch/sites/default/files/styles/lt_article_full/public/media/2016/11/30/file6skoimiorsy6xxhy8n3.jpg?itok=pRojbJn_ 2x" media="all and (min-width: 992px)" type="image/jpeg">
+              <source srcset="https://assets.letemps.ch/sites/default/files/styles/compact/public/media/2016/11/30/file6skoimiorsy6xxhy8n3.jpg?itok=RDcYsceL 1x, https://assets.letemps.ch/sites/default/files/styles/compact/public/media/2016/11/30/file6skoimiorsy6xxhy8n3.jpg?itok=RDcYsceL 2x" media="(min-width: 0px)" type="image/jpeg">
+            <!--[if IE 9]></video><![endif]-->
+              <img class="picture img-responsive" srcset="https://assets.letemps.ch/sites/default/files/styles/compact/public/media/2016/11/30/file6skoimiorsy6xxhy8n3.jpg?itok=RDcYsceL">
+
+  </picture>
+
+
+  <button type="button" class="picture-caption-icon" title="Plus d&#39;information sur l&#39;image">
+    <i class="fa fa-info"></i><span class="sr-only">Plus d'information sur l'image</span>
+  </button>
+  <figcaption itemprop="description">Parreno, Annlee de Tino Sehgal, dessiné au Palais de Tokyo, 2013. Le personnage virtuel d’Annlee voyage d’artiste en artiste, d’exposition en exposition.
+          <br><span class="picture-copyright" itemprop="copyrightHolder">© Courtesy Asad Raza</span>
+      </figcaption>
+
+            </figure> <span class="label label-primary">Art contemporain</span>
+        </div>
+    </a>
+
+    <div class="article-excerpt">
+        <div class="spacer spacer-xs"></div>
+        <h3 class="no-margin h2"><span class="label label-primary">Art contemporain</span> <a href="https://www.letemps.ch/culture/2016/11/30/lart-un-parcours-vie-plais-tokyo" class="link link-text"><span>L’art comme un parcours de vie au Plais de Tokyo</span>
+</a></h3>
+        <p class="small no-margin">
+            <a class="link link-muted square-char" href="https://www.letemps.ch/culture/2016/11/30/lart-un-parcours-vie-plais-tokyo"><time datetime="2016-11-30T18:46:42Z">30.11.2016 - 19:46</time>
+</a>
+                    </p>
+        <p class="text-serif teaser-summary">Pour&nbsp;sa carte blanche, Tino Sehgal&nbsp;donne une place nouvelle aux visiteurs</p>
+    </div>
+</div>
+
+    <div class="article-teaser">
+    <a class="article-figure" href="https://www.letemps.ch/suisse/2016/11/30/philipp-muller-monsieur-18-monsieur-1">
+        <div class="picture-label">
+            <figure class="picture picture-card picture-hover-effect">
+                    <picture>
+                <!--[if IE 9]><video style="display: none;"><![endif]-->
+              <source srcset="https://assets.letemps.ch/sites/default/files/styles/lt_article_full/public/media/2016/11/30/file6skqwkp4uuvu4w5kjbi.jpg?itok=frjcBNAG 1x, https://assets.letemps.ch/sites/default/files/styles/lt_article_full/public/media/2016/11/30/file6skqwkp4uuvu4w5kjbi.jpg?itok=frjcBNAG 2x" media="all and (min-width: 992px)" type="image/jpeg">
+              <source srcset="https://assets.letemps.ch/sites/default/files/styles/compact/public/media/2016/11/30/file6skqwkp4uuvu4w5kjbi.jpg?itok=x--i77LI 1x, https://assets.letemps.ch/sites/default/files/styles/compact/public/media/2016/11/30/file6skqwkp4uuvu4w5kjbi.jpg?itok=x--i77LI 2x" media="(min-width: 0px)" type="image/jpeg">
+            <!--[if IE 9]></video><![endif]-->
+              <img class="picture img-responsive" srcset="https://assets.letemps.ch/sites/default/files/styles/compact/public/media/2016/11/30/file6skqwkp4uuvu4w5kjbi.jpg?itok=x--i77LI">
+
+  </picture>
+
+
+  <button type="button" class="picture-caption-icon" title="Plus d&#39;information sur l&#39;image">
+    <i class="fa fa-info"></i><span class="sr-only">Plus d'information sur l'image</span>
+  </button>
+  <figcaption itemprop="description">Après avoir été souvent rallié comme Monsieur 18% de la Suisse, Philipp Müller, ancien président du PLR, défend&nbsp;un modèle d’application du vote du 9&nbsp;février qui porte son nom.
+          <br><span class="picture-copyright" itemprop="copyrightHolder">© ANTHONY ANEX</span>
+      </figcaption>
+
+            </figure> <span class="label label-primary">Immigration</span>
+        </div>
+    </a>
+
+    <div class="article-excerpt">
+        <div class="spacer spacer-xs"></div>
+        <h3 class="no-margin h2"><span class="label label-primary">Immigration</span> <a href="https://www.letemps.ch/suisse/2016/11/30/philipp-muller-monsieur-18-monsieur-1" class="link link-text"><span>Philipp Müller, de Monsieur 18% à Monsieur 1%</span>
+</a></h3>
+        <p class="small no-margin">
+            <a class="link link-muted square-char" href="https://www.letemps.ch/suisse/2016/11/30/philipp-muller-monsieur-18-monsieur-1"><time datetime="2016-11-30T18:07:00Z">30.11.2016 - 19:07</time>
+</a>
+                    </p>
+        <p class="text-serif teaser-summary">L’élu PLR voulait plafonner la part d’étrangers à 18%. Aujourd’hui, il défend son modèle de mise&nbsp;en oeuvre du 9&nbsp;février, le modèle du 1%</p>
+    </div>
+</div>
+
+    <div class="article-teaser">
+    <a class="article-figure" href="https://www.letemps.ch/suisse/2016/11/30/un-train-desenclaver-vallee-joux">
+        <div class="picture-label">
+            <figure class="picture picture-card picture-hover-effect">
+                    <picture>
+                <!--[if IE 9]><video style="display: none;"><![endif]-->
+              <source srcset="https://assets.letemps.ch/sites/default/files/styles/lt_article_full/public/media/2016/11/30/file6rlb497wwsipy7iif1a.jpg?itok=R0UvWtzS 1x, https://assets.letemps.ch/sites/default/files/styles/lt_article_full/public/media/2016/11/30/file6rlb497wwsipy7iif1a.jpg?itok=R0UvWtzS 2x" media="all and (min-width: 992px)" type="image/jpeg">
+              <source srcset="https://assets.letemps.ch/sites/default/files/styles/compact/public/media/2016/11/30/file6rlb497wwsipy7iif1a.jpg?itok=LEQydKEy 1x, https://assets.letemps.ch/sites/default/files/styles/compact/public/media/2016/11/30/file6rlb497wwsipy7iif1a.jpg?itok=LEQydKEy 2x" media="(min-width: 0px)" type="image/jpeg">
+            <!--[if IE 9]></video><![endif]-->
+              <img class="picture img-responsive" srcset="https://assets.letemps.ch/sites/default/files/styles/compact/public/media/2016/11/30/file6rlb497wwsipy7iif1a.jpg?itok=LEQydKEy">
+
+  </picture>
+
+
+  <button type="button" class="picture-caption-icon" title="Plus d&#39;information sur l&#39;image">
+    <i class="fa fa-info"></i><span class="sr-only">Plus d'information sur l'image</span>
+  </button>
+  <figcaption itemprop="description">La Vallée de Joux sera desservie par une ligne de train&nbsp;la reliant à Lausanne et Aigle.
+          <br><span class="picture-copyright" itemprop="copyrightHolder">© GIAN VAITL</span>
+      </figcaption>
+
+            </figure> <span class="label label-primary">Vaud</span>
+        </div>
+    </a>
+
+    <div class="article-excerpt">
+        <div class="spacer spacer-xs"></div>
+        <h3 class="no-margin h2"><span class="label label-primary">Vaud</span> <a href="https://www.letemps.ch/suisse/2016/11/30/un-train-desenclaver-vallee-joux" class="link link-text"><span>Un train pour désenclaver&nbsp;la Vallée de Joux</span>
+</a></h3>
+        <p class="small no-margin">
+            <a class="link link-muted square-char" href="https://www.letemps.ch/suisse/2016/11/30/un-train-desenclaver-vallee-joux"><time datetime="2016-11-30T17:25:00Z">30.11.2016 - 18:25</time>
+</a>
+                        <span class="square-char"><b>
+            <a href="https://www.letemps.ch/theme/vaud">Vaud</a>            </b></span>
+                    </p>
+        <p class="text-serif teaser-summary">La Vallée de Joux sera desservie par une ligne de train&nbsp;la reliant à Lausanne et Aigle, une fois par heure, à partir de décembre 2021</p>
+    </div>
+</div>
+
+
+  
+          
+      </section>
+    </div>
+  </div>
+</div>
+
+<div id="gallery" class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="pswp__bg"></div>
+    <div class="pswp__scroll-wrap">
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+        <div class="pswp__ui pswp__ui--hidden">
+            <div class="pswp__top-bar">
+                <div class="pswp__counter"></div>
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="pswp__loading-indicator"><div class="pswp__loading-indicator__line"></div></div> -->
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip">
+                    <!-- <a href="#" class="pswp__share--facebook"></a>
+                    <a href="#" class="pswp__share--twitter"></a>
+                    <a href="#" class="pswp__share--pinterest"></a>
+                    <a href="#" download class="pswp__share--download"></a> -->
+                </div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button>
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"></button>
+            <div class="pswp__caption">
+                <div class="pswp__caption__center">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="share-by-mail-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                <h4 class="modal-title" id="exampleModalLabel">Partager un article</h4>
+            </div>
+            <div class="modal-body">
+                <form class="share-by-mail-form" data-drupal-selector="share-by-mail-form" action="https://www.letemps.ch/lifestyle/2016/11/30/biere-belge-rumba-cubaine-entrent-patrimoine-immateriel-lunesco" method="post" id="share-by-mail-form" accept-charset="UTF-8">
+  <span class="share-from-valid-message"></span><div class="form-group js-form-item form-item js-form-type-textfield form-item-share-from js-form-item-share-from form-no-label">
+        <input placeholder="Votre nom" class="share-from form-text form-control" data-drupal-selector="edit-share-from" type="text" id="edit-share-from" name="share_from" value="" size="60" maxlength="128">
+
+        </div>
+<span class="share-to-valid-message"></span><div class="form-group js-form-item form-item js-form-type-email form-item-share-to js-form-item-share-to form-no-label">
+        <input placeholder="Adresse email de votre ami" class="share-to form-email form-control" data-drupal-selector="edit-share-to" type="email" id="edit-share-to" name="share_to" value="" size="60" maxlength="254">
+
+        </div>
+<div class="form-group js-form-item form-item js-form-type-textarea form-item-message-body js-form-item-message-body form-no-label">
+        <div>
+  <textarea data-drupal-selector="edit-message-body" id="edit-message-body" name="message_body" rows="5" cols="60" class="form-textarea">Bonjour,
+Un ami vous recommande un article sur leTemps.ch:
+
+La bière belge et la rumba cubaine entrent au patrimoine immatériel de l’Unesco
+https://www.letemps.ch/lifestyle/2016/11/30/biere-belge-rumba-cubaine-entrent-patrimoine-immateriel-lunesco?utm_source=mail&amp;utm_medium=share&amp;utm_campaign=article
+
+Cordialement,
+Le Temps</textarea>
+</div>
+
+        </div>
+<div class="form-group js-form-item form-item js-form-type-checkbox form-item-email js-form-item-email form-no-label">
+        <input class="winnie form-checkbox" data-drupal-selector="edit-email" type="checkbox" id="edit-email" name="email" value="1">
+
+        </div>
+<input data-drupal-selector="edit-message-subject" type="hidden" name="message_subject" value="Un ami vous recommande un article sur leTemps.ch">
+<span class="send-share-message"></span><input class="btn-primary button js-form-submit form-submit btn" data-drupal-selector="edit-submit" type="submit" id="edit-submit" name="submitButton" value="Envoyer ">
+<input data-drupal-selector="form-x9klt6rerj3o7gzgzqhsubkotvktvqn-c21cd8fatwu" type="hidden" name="form_build_id" value="form-x9kLt6Rerj3o7GZgzQHsuBkOTVKtVQn-C21CD8fatWU">
+<input data-drupal-selector="edit-share-by-mail-form" type="hidden" name="form_id" value="share_by_mail_form">
+
+</form>
+
+            </div>
+            <!--div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Send message</button>
+            </div-->
+        </div>
+    </div>
+</div>
+  </div>
+<div id="block-adtechblock-3" class="block block-np8-adtech">
+  
+    
+        <div id="adtech-583f20ed124d7" class="adtech adtech__13inreadteadsartikel adtech__6276064"></div>
+
+    </div>
+
+  </div>
+
+</main>
+    <div>
+    <div id="block-ltsubscribeanonymous" class="block block-lt-custom">
+  
+    
+      <div class="container">
+    <div class="row">
+        <div class="col-md-10 col-md-offset-1">
+            <div class="row text-center">
+                <div class="col-xs-12">
+                    <h2>Abonnez-vous au Temps !</h2>
+                    <h4>Consultez <a name="articles">tous nos articles</a> et bénéficiez des avantages abonnés.</h4>
+
+                    <a href="http://boutique.letemps.ch/index.php?dispatch=shop_matrix.show&amp;utm_source=editorial&amp;utm_medium=banner&amp;utm_campaign=bloc-promo" class="btn btn-primary">
+                        Découvrir nos abonnements
+                    </a>
+                    <div class="spacer spacer-sm"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+  </div>
+<div id="block-letemps-socialmedialinks" class="block block-block-content">
+  
+    
+      
+            <div><div class="bg-gray-lighter">
+<div class="container">
+<div class="row text-center">
+<div class="col-md-10 col-md-offset-1">
+<div class="spacer spacer-sm">&nbsp;</div>
+
+<h2 class="h4 section-title text-center">Suivez toute l'actualité du Temps sur les réseaux sociaux</h2>
+
+<ul class="list-inline social-networks"><li><a class="facebook" href="https://www.facebook.com/letemps.ch" target="_blank">Facebook</a></li>
+	<li><a class="twitter" href="https://twitter.com/letemps" target="_blank">Twitter</a></li>
+	<li><a class="youtube" href="https://www.youtube.com/letemps" target="_blank">Youtube</a></li>
+</ul><div class="spacer spacer-sm">&nbsp;</div>
+</div>
+</div>
+</div>
+<!-- /container --></div>
+</div>
+      
+  </div>
+
+  </div>
+
+<footer class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-6 col-md-4 col-md-offset-2">
+  <div class="media">
+    <div class="media-left">
+      <i class="media-object ltpsicon ltpsicon-newspaper"></i>
+    </div>
+    <div class="media-body">
+      <h4 class="media-heading h5">Vos newsletters quotidiennes</h4>
+      <p>Inscrivez-vous et recevez les newsletters de votre choix.</p>
+    </div>
+  </div>
+</div>
+<div class="col-sm-6 col-md-4">
+  <div class="spacer spacer-xxs"></div>
+  <div id="mc_embed_signup">
+    <form action="https://letemps.us5.list-manage.com/subscribe/post?u=935318f4cb8cfdc02fc8eaae2&amp;id=56c41a402e" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="">
+      <div id="mc_embed_signup_scroll">
+      <div id="mce-responses" class="clear">
+        <div class="response" id="mce-error-response" style="display:none"></div>
+        <div class="response" id="mce-success-response" style="display:none"></div>
+      </div>
+      <div class="input-group mc-field-group">
+        <label class="sr-only" for="mce-EMAIL">Votre adresse email</label>
+        <input type="email" name="EMAIL" class="form-control required email" id="mce-EMAIL" placeholder="Votre adresse email">
+        <div style="position: absolute; left: -5000px;"><input type="text" name="b_935318f4cb8cfdc02fc8eaae2_56c41a402e" tabindex="-1" value=""></div>
+        <span class="input-group-btn">
+          <button class="btn btn-primary" type="submit">S'inscrire</button>
+        </span>
+      </div>
+      <!-- <p class="help-block small"><a href="#">Consulter nos archives</a> • <a href="#">Accéder à votre compte</a></p> -->
+      <p>
+        </p><ul class="list-inline">
+          <li><input type="checkbox" value="1" name="group[17505][1]" id="mce-group[17505]-17505-0" checked="checked"><label for="mce-group[17505]-17505-0" style="margin-left:5px;">Générale</label></li>
+          <li><input type="checkbox" value="2" name="group[17505][2]" id="mce-group[17505]-17505-1" checked="checked"><label for="mce-group[17505]-17505-1" style="margin-left:5px;">Économie</label></li>
+          <li><input type="checkbox" value="32" name="group[17505][32]" id="mce-group[17505]-17505-5" checked="checked"><label for="mce-group[17505]-17505-5" style="margin-left:5px;">Un jour, une idée</label></li>
+        </ul>
+      <p></p>
+      </div>
+    </form>
+  </div>
+</div>
+    </div>
+  </div>
+      <div class="footer-bottom">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-10 col-lg-offset-1 footer-credits">
+            <img class="logo" src="./biere_files/logo-negative.svg" alt="">
+              
+      <ul class="list-inline">
+          <li class="hidden-xs">           <a href="https://www.letemps.ch/a-propos" class="">À propos</a>
+      </li>
+          <li>           <a href="https://www.letemps.ch/faq" class="">FAQ</a>
+      </li>
+          <li>           <a href="https://www.letemps.ch/contact" class="">Contact</a>
+      </li>
+          <li>           <a href="http://www.admeira.ch/fr/brands/digital/letemps-ch" class="">Publicité</a>
+      </li>
+          <li>           <a href="http://www.letempsarchives.ch/" class="">Archives historiques</a>
+      </li>
+          <li>           <a href="https://www.letemps.ch/abonnes/services" class="">Services</a>
+      </li>
+          <li>           <a href="https://www.letemps.ch/rss" class="">RSS</a>
+      </li>
+          <li>           <a href="https://www.letemps.ch/" class="">© 2016 Le Temps SA</a>
+      </li>
+      </ul>
+  
+
+
+
+            <a class="btn btn-default btn-top pull-right" href="https://www.letemps.ch/lifestyle/2016/11/30/biere-belge-rumba-cubaine-entrent-patrimoine-immateriel-lunesco#top"><i class="fa fa-chevron-up"></i></a>
+          </div>
+        </div>
+
+        <div class="row text-center">&nbsp;</div>
+
+        <div class="spacer spacer-sm"></div>
+
+      </div>
+    </div>
+  </footer>
+
+    <script type="text/javascript">
+              /** CONFIGURATION START **/
+              var _sf_async_config = _sf_async_config || {};
+              var _cbq = window._cbq || [];
+                            _cbq.push(["_acct", "anon"]);
+              
+                              _sf_async_config.uid = 61154;
+                _sf_async_config.domain = "letemps.ch";
+                                  _sf_async_config.useCanonical = true;
+                              
+              _sf_async_config.sections = "Lifestyle";  //CHANGE THIS
+              _sf_async_config.authors = "";
+              /** CONFIGURATION END **/
+              (function(){
+                function loadChartbeat() {
+                  window._sf_endpt=(new Date()).getTime();
+                  var e = document.createElement("script");
+                  e.setAttribute("language", "javascript");
+                  e.setAttribute("type", "text/javascript");
+                  e.setAttribute("src", "//static.chartbeat.com/js/chartbeat.js");
+                  document.body.appendChild(e);
+                }
+                var oldonload = window.onload;
+                window.onload = (typeof window.onload != "function") ?
+                   loadChartbeat : function() { oldonload(); loadChartbeat(); };
+              })();
+          </script>
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","scriptPath":null,"pathPrefix":"","currentPath":"node\/1023180","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"fr"},"pluralDelimiter":"\u0003","ajaxPageState":{"libraries":"core\/html5shiv,core\/jquery.form,core\/picturefill,letemps\/base,letemps\/pymjs,lt_adtech\/lt_adtech,lt_gtm\/ad,lt_gtm\/paywall,lt_paywall\/lt_paywall,np8_adtech\/lt_adtech_783916,np8_embed\/np8_embed,np8_user\/login-destination,system\/base,views\/views.module","theme":"letemps","theme_token":null},"ajaxTrustedUrl":{"form_action_cc611e1d":true,"\/lifestyle\/2016\/11\/30\/biere-belge-rumba-cubaine-entrent-patrimoine-immateriel-lunesco?ajax_form=1":true,"\/search":true},"np8_embed":{"twitter":{"dialog_add":"Embed Twitter","dialog_edit":"Edit Embedded Twitter"},"facebook":{"app_id":48220972601,"langcode":"de_DE","dialog_add":"Embed Facebook","dialog_edit":"Edit Embedded Facebook","loading":"Loading Facebook Post..."}},"np8_adtech":{"site_config":{"params":{"loc":"100"},"network":"780.2","pageid":783916,"siteid":1170166,"urlTargeting":{"doTargeting":true},"kv":{"title":"la-biere-belge-et-la-rumba-cubaine-entrent-au-patrimoine-immateriel-de-l-unesco","pagetype":"detail","dossier":""}},"positions":{"adtech-583f20ed124d7":{"placement":6276064,"kv":{"url1":"lifestyle","url2":"2016","url3":"11","url4":"30","ressort":"lifestyle"},"adContainerId":"adtech-583f20ed124d7"},"adtech-583f20ecd6606":{"placement":5825661,"kv":{"url1":"lifestyle","url2":"2016","url3":"11","url4":"30","ressort":"lifestyle"},"adContainerId":"adtech-583f20ecd6606"},"adtech-583f20ecd63c6":{"placement":5819816,"kv":{"url1":"lifestyle","url2":"2016","url3":"11","url4":"30","ressort":"lifestyle"},"adContainerId":"adtech-583f20ecd63c6"},"adtech-583f20ecd64e9":{"placement":5819822,"kv":{"url1":"lifestyle","url2":"2016","url3":"11","url4":"30","ressort":"lifestyle"},"adContainerId":"adtech-583f20ecd64e9"},"adtech-583ee0cff3d13":{"placement":5819814,"kv":{"url1":"lifestyle","url2":"2016","url3":"11","url4":"30","ressort":"lifestyle"},"adContainerId":"adtech-583ee0cff3d13"},"adtech-583f20ed10e4c":{"placement":5819821,"kv":{"url1":"lifestyle","url2":"2016","url3":"11","url4":"30","ressort":"lifestyle"},"adContainerId":"adtech-583f20ed10e4c"}}},"lt_paywall":{"settings":{"limit":10,"lt_timeframe":25,"lt_cookie_lifetime":45,"hitPaywallCallback":"lt_gtm_paywall.hitPaywall"}},"ajax":{"edit-submit":{"callback":[{},"validateSendAjax"],"event":"click","progress":{"type":"throbber","message":null},"url":"\/lifestyle\/2016\/11\/30\/biere-belge-rumba-cubaine-entrent-patrimoine-immateriel-lunesco?ajax_form=1","dialogType":"ajax","submit":{"_triggering_element_name":"submitButton","_triggering_element_value":"Envoyer \uf1d8"}}},"user":{"uid":0,"permissionsHash":"aa9a57e625a7edc37144e1dcfdcf477f9efe573c1bb1591727a1fe084b62f5f4"}}</script>
+<script src="./biere_files/js_iOa7p7pNpJOMhES5WokntV6AxStYgTftobqJdO0j1-E.js"></script>
+<script src="https://aka-cdn.adtech.de/dt/common/DAC.js"></script>
+<script src="https://aka-cdn.adtech.de/dac/780.2/w1170166.js"></script>
+<script src="./biere_files/js_EevaDEZP3o77IiAtmDN5Z_iDonsO6AXXGxIEGnpFMc4.js"></script>
+<script src="https://aka-cdn.adtech.de/dac/780.2/1170166/p783916.js"></script>
+<script src="./biere_files/js_OQmIHOxfCsjcCj_xrN2JcyWgxa-OTbrofD_5t6e7NQg.js"></script>
+
+  <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"0d3c09e20d","applicationID":"8284479","transactionName":"ZlZTY0pZCxBVBRJQC18cZEVRFwwNUAMeFxRZQw==","queueTime":0,"applicationTime":12,"atts":"ShFQFQJDGB4=","errorBeacon":"bam.nr-data.net","agent":""}</script>
+
+<script type="text/javascript" id="">(function(d,b,a){(b[a]=b[a]||[]).push(function(){try{b.yaCounter39997290=new Ya.Metrika({id:39997290,clickmap:!0,trackLinks:!0,accurateTrackBounce:!0,webvisor:!0})}catch(f){}});var e=d.getElementsByTagName("script")[0],c=d.createElement("script");a=function(){e.parentNode.insertBefore(c,e)};c.type="text/javascript";c.async=!0;c.src="https://mc.yandex.ru/metrika/watch.js";"[object Opera]"==b.opera?d.addEventListener("DOMContentLoaded",a,!1):a()})(document,window,"yandex_metrika_callbacks");</script><script type="text/javascript" id="">var $mcGoal={settings:{uuid:"935318f4cb8cfdc02fc8eaae2",dc:"us5"}};(function(){var a=document.createElement("script");a.type="text/javascript";a.async=!0;a.defer=!0;a.src=("https:"==document.location.protocol?"https://s3.amazonaws.com/downloads.mailchimp.com":"http://downloads.mailchimp.com")+"/js/goal.min.js";var b=document.getElementsByTagName("script")[0];b.parentNode.insertBefore(a,b)})();</script><script type="text/javascript" id="">window.Promise&&"undefined"==typeof google_tag_manager["GTM-TQ2B8Q"].macro('gtm1480533782726')&&(new Promise(function(b){var e=void 0,c=function(){return b(!0)},a=function(){return b(!1)};if(window.webkitRequestFileSystem)webkitRequestFileSystem(window.TEMPORARY,1,a,c);else if("MozAppearance"in document.documentElement.style)e=indexedDB.open("test"),e.onerror=c,e.onsuccess=a;else if(/constructor/i.test(window.HTMLElement))try{localStorage.length?a():(localStorage.x=1,localStorage.removeItem("x"),a())}catch(f){c()}else window.indexedDB||
+!window.PointerEvent&&!window.MSPointerEvent?a():c()})).then(function(b){dataLayer.push({event:"browsing",browsing:b})});var d=new Date;d.setTime(d.getTime()+18E5);var expires="expires\x3d"+d.toGMTString();document.cookie="session\x3d1; "+expires+"; path\x3d/";</script><script language="javascript" type="text/javascript" src="./biere_files/chartbeat.js"></script></body></html>
